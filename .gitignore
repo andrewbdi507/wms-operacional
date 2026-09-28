@@ -1,0 +1,32 @@
+# WMS Operacional - Gitignore
+# === ARQUIVOS DE DEMO / ENV ===
+.env*
+!.env.example
+
+# === BANCOS DE DADOS (SQLite / Demo) ===
+*.db
+*.sqlite
+*.sqlite3
+
+# === PYTHON ===
+__pycache__/
+*.pyc
+*.pyo
+.pyc/
+pytest_cache/
+.env.local
+
+# === BUILD / DISTRIBUTION ===
+.wms_demo.db
+
+# === OS GENERATED ===
+.DS_Store
+Thumbs.db
+
+# === ARQUIVOS DE AUDITORIA / TEMPORÁRIOS (NÃO INCLUIR) ===
+check_git.ps1
+test_import.py
+run_seed.py
+run_migration.py
+wms_demo.db
+audit_report.md
