@@ -97,7 +97,7 @@ Aplicação FastAPI com estrutura modular:
    uvicorn app.main:app --reload
    ```
 
-7. Acessar em http://localhost:8000
+
 
 ## Migrations
 
